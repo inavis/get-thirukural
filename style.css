@@ -75,68 +75,68 @@ background-color: rgb(214, 213, 213);
     
 
 @media(max-width:250px){
-    .head-image{
+    /* .head-image{
         height: 150px;
         width: 260px;
-    }
+    } */
     #searchbar{
         height: 43px;
     width: 60%;
     }
     .title{
-        font-size: 35px;
+        font-size: 40px;
     }
 }
 
 @media(min-width:251px) and (max-width:500px){
-    .head-image{
+    /* .head-image{
         height: 160px;
         width: 280px;
-    }
+    } */
     #searchbar{
         height: 43px;
     width: 65%;
     }
     .title{
-        font-size: 40px;
+        font-size: 45px;
     }
 }
 @media(min-width:501px) and (max-width:750px){
-    .head-image{
+    /* .head-image{
         height: 180px;
         width: 300px;
-    }
+    } */
     #searchbar{
         height: 43px;
     width: 70%;
     }
     .title{
-        font-size: 50px;
+        font-size: 55px;
     }
 }
 @media(min-width:751px) and (max-width:1000px){
-    .head-image{
+    /* .head-image{
         height: 200px;
         width: 320px;
-    }
+    } */
     #searchbar{
         height: 43px;
     width: 75%;
     }
     .title{
-        font-size: 70px;
+        font-size: 75px;
     }
 }
 @media(min-width:1001px){
-    .head-image{
+    /* .head-image{
         height: 250px;
         width: 400px;
-    }
+    } */
     #searchbar{
         height: 43px;
     width: 80%;
     }
     .title{
-        font-size: 90px;
+        font-size: 95px;
     }
 }
