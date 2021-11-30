@@ -54,7 +54,8 @@ function changestyle(value){
 function search(){
     if(searchbar.value>0 && searchbar.value<=1330){
         error.style.display="none"
-        kural = searchbar.value;
+        kural = Number(searchbar.value);
+        console.log(kural)
         api(kural);
     }else{
         error.innerHTML="ERROR : ONLY FROM 1 TO 1330"
@@ -65,6 +66,7 @@ function search(){
 }
 
 function api(number){
+    console.log("number",number)
     let url=`https://api-thirukkural.vercel.app/api?num=${number}`;
     fetch(url)
     .then((res)=>res.json())
@@ -104,19 +106,21 @@ function api(number){
 api(kural); // run once to display first kural when page loads
 
 function prev(){
-    if(kural==1){
+    if(kural<1){
        
     }else{
         kural-=1;
+        console.log(kural);
         api(kural)
     }
 }
 
 function next(){
-    if(kural==1330){
+    if(kural>1330){
 
     }else{
         kural+=1;
+        console.log(kural)
         api(kural);
     }
 }
