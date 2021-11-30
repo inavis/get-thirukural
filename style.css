@@ -84,7 +84,11 @@ background-color: rgb(214, 213, 213);
         height: 43px;
     width: 60%;
     }
+    .title{
+        font-size: 35px;
+    }
 }
+
 @media(min-width:251px) and (max-width:500px){
     .head-image{
         height: 160px;
@@ -95,7 +99,7 @@ background-color: rgb(214, 213, 213);
     width: 65%;
     }
     .title{
-        font-size: 50px;
+        font-size: 40px;
     }
 }
 @media(min-width:501px) and (max-width:750px){
@@ -108,7 +112,7 @@ background-color: rgb(214, 213, 213);
     width: 70%;
     }
     .title{
-        font-size: 60px;
+        font-size: 50px;
     }
 }
 @media(min-width:751px) and (max-width:1000px){
@@ -121,7 +125,7 @@ background-color: rgb(214, 213, 213);
     width: 75%;
     }
     .title{
-        font-size: 80px;
+        font-size: 70px;
     }
 }
 @media(min-width:1001px){
@@ -134,6 +138,6 @@ background-color: rgb(214, 213, 213);
     width: 80%;
     }
     .title{
-        font-size: 100px;
+        font-size: 90px;
     }
 }
