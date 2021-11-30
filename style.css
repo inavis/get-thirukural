@@ -15,11 +15,18 @@
 }
 #searchbar:hover{
     cursor: pointer;
-    background-color: thistle;
+    background-color: rgb(247, 252, 201);
+}
+.fa-search{
+    color: black;
+    
+}
+.searchbtn{
+    background-color: rgb(247, 252, 201);
 }
 #searchbar:focus{
     border:2px solid black;
-    background-color: thistle;
+    background-color: rgb(247, 252, 201);
 }
 .tab1{
 color: rgb(143, 34, 34);
@@ -54,7 +61,7 @@ background-color: rgb(214, 213, 213);
 }
 .searchbtn:hover{
     color: white;
-    background-color: thistle;
+    background-color:rgb(247, 252, 201);
 }
 /* .side-image{
     width: 50px;
@@ -62,6 +69,10 @@ background-color: rgb(214, 213, 213);
 .prev,.next{
     background-color: white;
     font-weight: bold;
+}
+.prev:hover , .next:hover{
+    background-color: rgb(247, 252, 201);
+    
 }
 .data{
     background: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("t2.jpg");
@@ -72,7 +83,13 @@ background-color: rgb(214, 213, 213);
     font-weight: bolder;
 }
 
-    
+.error{
+    background-color: rgb(241, 210, 163);
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    display: none;
+}
 
 @media(max-width:250px){
     /* .head-image{
@@ -85,6 +102,9 @@ background-color: rgb(214, 213, 213);
     }
     .title{
         font-size: 40px;
+    }
+    .error{
+        width: 40%;
     }
 }
 
@@ -100,6 +120,9 @@ background-color: rgb(214, 213, 213);
     .title{
         font-size: 45px;
     }
+    .error{
+        width: 50%;
+    }
 }
 @media(min-width:501px) and (max-width:750px){
     /* .head-image{
@@ -113,6 +136,9 @@ background-color: rgb(214, 213, 213);
     .title{
         font-size: 55px;
     }
+    .error{
+        width: 600%;
+    }
 }
 @media(min-width:751px) and (max-width:1000px){
     /* .head-image{
@@ -125,6 +151,8 @@ background-color: rgb(214, 213, 213);
     }
     .title{
         font-size: 75px;
+    }.error{
+        width: 70%;
     }
 }
 @media(min-width:1001px){
@@ -138,5 +166,8 @@ background-color: rgb(214, 213, 213);
     }
     .title{
         font-size: 95px;
+    }
+    .error{
+        width: 80%;
     }
 }
