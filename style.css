@@ -94,6 +94,9 @@ background-color: rgb(214, 213, 213);
         height: 43px;
     width: 65%;
     }
+    .title{
+        font-size: 50px;
+    }
 }
 @media(min-width:501px) and (max-width:750px){
     .head-image{
@@ -103,6 +106,9 @@ background-color: rgb(214, 213, 213);
     #searchbar{
         height: 43px;
     width: 70%;
+    }
+    .title{
+        font-size: 60px;
     }
 }
 @media(min-width:751px) and (max-width:1000px){
@@ -114,6 +120,9 @@ background-color: rgb(214, 213, 213);
         height: 43px;
     width: 75%;
     }
+    .title{
+        font-size: 80px;
+    }
 }
 @media(min-width:1001px){
     .head-image{
@@ -124,5 +133,7 @@ background-color: rgb(214, 213, 213);
         height: 43px;
     width: 80%;
     }
-    
+    .title{
+        font-size: 100px;
+    }
 }
