@@ -14,7 +14,6 @@ let head3 = document.querySelector(".head3")
 let head4 = document.querySelector(".head4")
 let head5 = document.querySelector(".head5")
 let error = document.querySelector(".error")
-
 let searchbar = document.querySelector("#searchbar")
 
 let kural=1;
@@ -106,10 +105,10 @@ api(kural); // run once to display first kural when page loads
 
 function prev(){
     if(kural==1){
-        
+       
     }else{
         kural-=1;
-        api(kural);
+        api(kural)
     }
 }
 
