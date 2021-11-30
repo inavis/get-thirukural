@@ -55,7 +55,7 @@ function search(){
     if(searchbar.value>0 && searchbar.value<=1330){
         error.style.display="none"
         kural = Number(searchbar.value);
-        console.log(kural)
+       // console.log(kural)
         api(kural);
     }else{
         error.innerHTML="ERROR : ONLY FROM 1 TO 1330"
@@ -66,13 +66,13 @@ function search(){
 }
 
 function api(number){
-    console.log("number",number)
+    //console.log("number",number)
     let url=`https://api-thirukkural.vercel.app/api?num=${number}`;
     fetch(url)
     .then((res)=>res.json())
     .then(function(data){
         if(language=="english"){
-            console.log("kural in english");
+            //console.log("kural in english");
             head.innerHTML="Thirukural";
             head1.innerHTML="Section"+" : ";
             head2.innerHTML="Chapter"+" : ";
@@ -86,7 +86,7 @@ function api(number){
             explanation.innerHTML=data['eng_exp']
            
         }else{
-            console.log("kural in tamil");
+            //console.log("kural in tamil");
             head.innerHTML="திருக்குறள் தெளிவுரை";
             head1.innerHTML="பால்"+" : ";
             head2.innerHTML="அதிகாரம்"+" : ";
@@ -110,7 +110,7 @@ function prev(){
        
     }else{
         kural-=1;
-        console.log(kural);
+        //console.log(kural);
         api(kural)
     }
 }
@@ -120,7 +120,7 @@ function next(){
 
     }else{
         kural+=1;
-        console.log(kural)
+        //console.log(kural)
         api(kural);
     }
 }
