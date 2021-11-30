@@ -34,7 +34,7 @@
   
     <link rel = "stylesheet" href="style.css">  
  
-    <title>THIRUKURAL</title>
+    <title>GET WEBSITE ICONS</title>
 
     <style>
      
@@ -42,80 +42,55 @@
     </style>
   </head>
 
-  <body class="bg-dark">
-    
-      <div class="text-center text-white mt-5 title">
-        <!-- <img src="thead.png.crdownload" class="head-image"/> -->
-
-        <!-- T̸̫͎͓̱̭͈̟̯̘͔̐̒̽̾̑̔̉̃͋̓H̶̨̬̯̼͓̺̭̥̲̮̓͋̄͠Ị̶͇͎͚̩͋͘͜ͅR̴̺̘̼̰͒̂̈͆͘Ṳ̷̼̊͐͊̓͜͝K̷̨͔̟̠̙͉̻̤̽̿̋̋͌͗͘͘Ử̴̜͓̲͖̝̉́̓̂Ṛ̸̡̻̗̹̗̞͑̂̎ͅͅĄ̷̨̼͍̪̬͓͚̜͎̏̿̊́L̵̡̛̛͌̇̿͑͘͝ -->
-
-      
-        ᖶᕼᓰᖇᑘᖽᐸᑘᖇᗩᒪ
-      </div>
-        
-        <div class="container">
-          <div id="first" class="row mt-5 mb-5 ml-2 mr-2">
-          <!-- The form -->
-            
-           <div class="">
-            <input type="text" placeholder="kural ( 1 to 1330)" id="searchbar">
-            <button type="button" onclick="search()" class="btn searchbtn"><i class="fa fa-search"></i></button>
-           </div>
-           <br>
-           <div class="error">
-
-           </div>
-          
-          </div>
-        </div>
-
-        <div class="container bg-primary">
-          <div class="row mt-5  ">
-            <div class="col-sm-6 tab1 p-2 font-weight-bold" onclick="getData(`tamil`)" >
-              தமிழ்
-            </div>
-            <div class="col-sm-6 tab2  p-2 font-weight-bold" onclick="getData(`english`)" >
-              English
-            </div>
-          </div>
-        </div>
-
-        <div class="container  data ">
-          <div class="row   ">
-            <div class="col-sm-12  p-5">
-              <br>
-              <div class="head"></div>
-              <br>
-              <div class="head1"></div>
-              <div class="sect"></div>
-              <br>
-              <div class="head2"></div>
-              <div class="chap"></div>
-              <br>
-              <div class="head3"></div>
-              <div class="chapgrp"></div>
-              <br>
-              <div class="head4"></div>
-              <div class="lines"></div>
-              <br>
-              <div class="head5"></div>
-              <div class="explanation"></div>
-              <br>
-            </div>
-            
-          </div>
-        </div>
-
-        <br>
-        <!--  <i class="fas fa-backward"></i>   -->
-        <!--   <i class="fas fa-forward"></i>  -->
-        <div class="text-center">
-          <button class="btn p-2 mr-1 prev" onclick="prev()">PREV</button>
-          <button class="btn  p-2 ml-1 next" onclick="next()">NEXT</button>
-        </div>
-        <br><br>
+  <body class="bg-warning">
    
   </body>
+  <div id="confirm">
+    <div>ERROR:</div>
+    <div class="message">This is a warning message.</div><br>
+    <button class="yes" onclick="disappear()">OK</button>
+ </div>
+
+  <div class="container mt-5 mb-5 ">
+    <div class="row">
+      <div class="text-center head">
+        <!-- <img src="https://fontmeme.com/permalink/211130/4f66181b993c95a378b9901c81af04b2.png"/> -->
+        <!--https://www.fontgeneratorguru.com/-->
+
+        ░▒▓█ ι匚σ𝓷 ⒼєᑎᵉŘคтØℝ █▓▒░
+    </div>
+  </div>
+
+  <div class="container">
+    <div  class="row mt-5 mb-5 ml-2 mr-2">
+      <!-- The form -->
+        
+       <div class="">
+         <div class=" font-weight-bold explanation">Enter fully-qualified domain name such as wikipedia.org, youtube.com, spotify.com, gmail.com to get their icon</div>
+        <input type="text" value="wikipedia.org" id="searchbar">
+        <button type="button" onclick="search()" class="btn searchbtn"><i class="fa fa-search"></i></button>
+       </div>
+       <br>
+       <div class="error">
+
+       </div>
+      
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="content m-5">
+          <!--Sample structure-->
+          <!-- <div class="card">
+            <div class="title"></div>
+            <div class="icon"><img src=""/></div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  
 
   <!--scrIPT FOR FONTAWSOME ICONS-->
   <script src="https://kit.fontawesome.com/9c5e07f641.js" crossorigin="anonymous"></script>
