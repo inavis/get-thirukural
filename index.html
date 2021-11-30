@@ -44,22 +44,22 @@
 
   <body class="bg-dark">
       <div class="text-center">
-        <img src="thead.png.crdownload"/>
+        <img src="thead.png.crdownload" class="head-image"/>
       </div>
         
         <div class="container">
           <div id="first" class="row m-5">
           <!-- The form -->
             
-           <div class="col-sm-12">
-            <input type="text" placeholder="enter kural number to search( 1 to 1330)" id="searchbar">
+           <div class="">
+            <input type="text" placeholder="kural ( 1 to 1330)" id="searchbar">
             <button type="button" onclick="search()" class="btn searchbtn"><i class="fa fa-search"></i></button>
            </div>
           
           </div>
         </div>
 
-        <div class="container">
+        <div class="container bg-primary">
           <div class="row mt-5  ">
             <div class="col-sm-6 tab1 p-2 font-weight-bold" onclick="getData(`tamil`)" >
               தமிழ்
@@ -70,8 +70,8 @@
           </div>
         </div>
 
-        <div class="container data">
-          <div class="row  text-white ">
+        <div class="container  data ">
+          <div class="row   ">
             <div class="col-sm-12  p-5">
               <br>
               <div class="head"></div>
@@ -96,11 +96,12 @@
           </div>
         </div>
 
-        <br><br>
-
+        <br>
+        <!--  <i class="fas fa-backward"></i>   -->
+        <!--   <i class="fas fa-forward"></i>  -->
         <div class="text-center">
-          <button class="btn bg-secondary p-2 mr-1" onclick="prev()"><i class="fas fa-backward"></i></button>
-          <button class="btn bg-secondary p-2 ml-1" onclick="next()"><i class="fas fa-forward"></i></button>
+          <button class="btn p-2 mr-1 prev" onclick="prev()">PREV</button>
+          <button class="btn  p-2 ml-1 next" onclick="next()">NEXT</button>
         </div>
         <br><br>
    
