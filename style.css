@@ -18,7 +18,7 @@
     background-color: thistle;
 }
 #searchbar:focus{
-    border:2px solid purple;
+    border:2px solid black;
     background-color: thistle;
 }
 .tab1{
@@ -42,7 +42,7 @@ background-color: rgb(214, 213, 213);
 }
 .head1,.head2,.head3,.head4,.head5,head{
     font-weight: bold;
-    color: black;
+    color: gray;
 }
 /* .data{
     background-color: rgb(85, 142, 207);
@@ -64,14 +64,13 @@ background-color: rgb(214, 213, 213);
     font-weight: bold;
 }
 .data{
-    background-image: url('t2.jpg');
+    background: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("t2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    color: rgb(255, 76, 5);
+    color: black;
     font-weight: bolder;
 }
-
 
     
 
