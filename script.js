@@ -108,7 +108,7 @@ api(kural); // run once to display first kural when page loads
 
 function prev(){
     if(kural<1){
-       appear("Reached first kural")
+       appear("Reached first kural / முதல் குறளை அடைந்தது")
     }else{
         kural-=1;
         //console.log(kural);
@@ -118,7 +118,7 @@ function prev(){
 
 function next(){
     if(kural>1330){
-        appear("Reached last kural 1330")
+        appear("Reached last kural 1330 / கடைசி குறளை அடைந்தது")
     }else{
         kural+=1;
         //console.log(kural)
