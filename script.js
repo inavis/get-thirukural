@@ -32,22 +32,22 @@ function changestyle(value){
        language="tamil";
        tab1.style.color="rgb(143, 34, 34)"
        tab1.style.borderBottom="5px solid rgb(143, 34, 34)"
-       tab1.style.backgroundColor="rgb(214, 213, 213)"
+       tab1.style.backgroundColor="white"
     //    tab1.style.backgroundColor="rgb(236, 169, 169)";
 
     tab2.style.color="gray";
     tab2.style.borderBottom="1px solid black";
-    tab2.style.backgroundColor="white";
+    tab2.style.backgroundColor="rgb(214, 213, 213)";
    }else if(value=="english"){
        language="english";
     tab2.style.color="rgb(235, 47, 235)";
     tab2.style.borderBottom="5px solid rgb(235, 47, 235)";
-    tab2.style.backgroundColor="rgb(214, 213, 213)";
+    tab2.style.backgroundColor="white";
     // tab2.style.backgroundColor="rgb(199, 175, 230)";
 
     tab1.style.color="gray";
     tab1.style.borderBottom="1px solid black";
-    tab1.style.backgroundColor="white";
+    tab1.style.backgroundColor="rgb(214, 213, 213)";
    }
 }
 
